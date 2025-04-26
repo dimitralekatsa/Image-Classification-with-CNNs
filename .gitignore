@@ -1,0 +1,48 @@
+﻿# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Model files
+*.h5
+*.hdf5
+*.pkl
+*.pt
+*.pth
+
+# Dataset files
+*.cifar
+*.cifar-100
+*.cifar-10
+
+# Others
+.DS_Store
+.idea/
+.vscode/
+
+# Large files
+*.zip
+*.tar
+*.gz
+*.pdf
+
+# Logs
+logs/
+*.log
